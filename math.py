@@ -6,12 +6,13 @@ def subtract(x,y):
 
 #multiply
 def multiply(x,y):
-    return x*y
+    return x*y #on bug456 branch
+
 def divide(x,y):
     if y==0:    #on master
         return div_by_0_error
     else:
-        return x/y
+        return x/y  
 
 #square
 def square(x):
